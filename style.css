@@ -1,4 +1,4 @@
-/* ===== RESET & VARIABLES ===== */
+
 *{
     margin:0;
     padding:0;
@@ -17,9 +17,6 @@ body{
     position:relative;
 }
 
-/* ===================================
-   BACKGROUND
-=================================== */
 .bg-image{
   position: fixed;
   inset: 0;
@@ -38,17 +35,12 @@ body{
   backdrop-filter: blur(3px);
   z-index: -1;
 }
-/* ===================================
-   HEADER
-=================================== */
 
 header{
     text-align:center;
     padding:30px 20px 10px;
     position:relative;
 }
-
-/* Ribbon */
 
 .ribbon{
     position:absolute;
@@ -66,8 +58,6 @@ header{
 
     box-shadow:0 5px 20px rgba(255,105,180,0.4);
 }
-
-/* Name */
 
 h1{
     font-size:3rem;
@@ -88,10 +78,6 @@ h1{
 
     margin-bottom:20px;
 }
-
-/* ===================================
-   NAVIGATION
-=================================== */
 
 nav{
     display:flex;
@@ -138,10 +124,6 @@ nav a.active::after{
     width:100%;
 }
 
-/* ===================================
-   PROFILE
-=================================== */
-
 .profile-section{
     display:flex;
     flex-direction:column;
@@ -169,10 +151,6 @@ nav a.active::after{
 .profile-avatar:hover{
     transform:scale(1.03);
 }
-
-/* ===================================
-   SOCIAL ICONS
-=================================== */
 
 .social-icons{
     display:flex;
@@ -214,10 +192,6 @@ nav a.active::after{
     color:white;
 }
 
-/* ===================================
-   MAIN CONTENT
-=================================== */
-
 .content-area{
     width:92%;
     max-width:1400px;
@@ -229,10 +203,6 @@ nav a.active::after{
 
     gap:22px;
 }
-
-/* ===================================
-   GLASS CARDS
-=================================== */
 
 .glass-card{
     background:rgba(255,255,255,0.08);
@@ -260,10 +230,6 @@ nav a.active::after{
     inset 0 0 10px rgba(255,255,255,0.04);
 }
 
-/* ===================================
-   TITLES
-=================================== */
-
 .glass-card h2{
     font-size:2rem;
 
@@ -277,10 +243,6 @@ nav a.active::after{
     gap:10px;
 }
 
-/* ===================================
-   ABOUT TEXT
-=================================== */
-
 .glass-card p{
     line-height:1.8;
 
@@ -288,10 +250,6 @@ nav a.active::after{
 
     font-size:1.05rem;
 }
-
-/* ===================================
-   SKILLS
-=================================== */
 
 .skills-list{
     list-style:none;
@@ -330,10 +288,6 @@ nav a.active::after{
     transform:translateY(-3px);
 }
 
-/* ===================================
-   CONTACT
-=================================== */
-
 .contact-info{
     font-size:1.05rem;
 
@@ -341,10 +295,6 @@ nav a.active::after{
 
     margin-top:8px;
 }
-
-/* ===================================
-   FOOTER
-=================================== */
 
 footer{
     text-align:center;
@@ -355,10 +305,6 @@ footer{
 
     font-size:0.95rem;
 }
-
-/* ===================================
-   RESPONSIVE
-=================================== */
 
 @media(max-width:768px){
 
@@ -396,7 +342,6 @@ footer{
 
     display:grid;
 
-    /* SIDE BY SIDE PROJECTS */
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
     gap:25px;
@@ -404,7 +349,6 @@ footer{
     align-items:stretch;
 }
 
-/* ===== PROJECT CARD ===== */
 
 .project-card{
     background: rgba(255,255,255,0.12);
@@ -475,8 +419,6 @@ footer{
     font-size:0.95rem;
 }
 
-/* ===== BUTTON ===== */
-
 .project-btn{
     margin-top:auto;
 
@@ -502,8 +444,6 @@ footer{
 
     transform:scale(1.05);
 }
-
-/* ===== MOBILE ===== */
 
 @media (max-width:768px){
 
